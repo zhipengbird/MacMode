@@ -6,6 +6,7 @@ on run {input, parameters}
 
 	-- First button reply (Travel) and then action
 	if vButton is "Travel" then
+		-- Here I choose to quit 3 apps I'm used to run
 		tell application "DavMail"
 			quit
 		end tell
@@ -22,6 +23,7 @@ on run {input, parameters}
 	else
 		--Second button reply (Desktop) and then action
 		if vButton is "desktop" then
+			-- Here I choose to activate 3 apps I'm used to run
 			tell application "DavMail"
 				activate
 			end tell
