@@ -1,7 +1,7 @@
 on run {input, parameters}
 
 	-- Display dialog box to choose mode
-	display dialog "Hello Darling! Which Mac mode you want?" buttons {"Travel", "Desktop"}
+	display dialog "Hello Dude! Which Mac mode you want?" buttons {"Travel", "Desktop"}
 	set vButton to button returned of result as string
 
 	-- First button reply (Travel) and then action
